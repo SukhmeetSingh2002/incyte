@@ -1,4 +1,5 @@
 from setuptools import setup
+from incyte._version import __version__
 
 # Read the contents of README.md
 with open("README.md", "r") as f:
@@ -6,7 +7,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="incyte",
-    version="1.0.0",
+    version=__version__,
     packages=["incyte"],
     entry_points={
         "console_scripts": [
