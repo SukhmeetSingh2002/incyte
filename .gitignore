@@ -1,3 +1,11 @@
 .venv/
 .vscode/
 __pycache__/
+generator.py
+Good.cpp
+dist/
+build/
+*.egg-info/
+*.out
+input.txt
+output.txt

@@ -10,8 +10,8 @@ from rich.progress import Progress
 from rich.console import Console
 from rich.progress import track
 
-import config
-# from . import config
+# import config
+from . import config
 
 console = Console()
 
