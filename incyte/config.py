@@ -27,7 +27,7 @@ def load_custom_config():
             default_config['python'] = "python"
 
         with open(config_file_path, 'w') as config_file:
-            json.dump(default_config, config_file)
+            json.dump(default_config, config_file, indent=4)
 
 
         return default_config

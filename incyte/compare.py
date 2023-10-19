@@ -108,7 +108,6 @@ def main():
             # Usage example:
             file_extension = os.path.splitext(args.file)[1]
             file_extension_good = os.path.splitext(args.good_file)[1]
-            console.print(f"File extension: [bold blue]{os.path.splitext(args.file)}[/bold blue]")
 
             build_command, run_command = get_build_and_run_commands(args, custom_config, file_extension)
             build_command_good, run_command_good = get_build_and_run_commands(args, custom_config, file_extension_good)
